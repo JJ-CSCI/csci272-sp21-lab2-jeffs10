@@ -8,17 +8,25 @@
 enum class Compass {N, S, W, E};
 
 // Write your code here
-
 class GPS {
- public:
- void Time::setTime (compass N, S, W, E );
-  std ::string toUniversalString () const;   
-string Time:: toUniversalString() const{
- ostringstream Output;
-  Output<<Compass::n(0.0)<< Compass::e (180.0)
-  return output.str ();
+  private:
+    double Latitude;
+    compass LatitudeDirection; 
+    double longitude;
+    compass LongitudeDirection; 
+
+  public: 
+    double getLatitude();
+    compass getLatitudeDirection();
+    double getlongitude();
+    compass getLongitudeDirection();
+
   
- };
+
+
+
+};
+
 
 //------------------------------
 //   DO NOT MODIFY TEST CASES
